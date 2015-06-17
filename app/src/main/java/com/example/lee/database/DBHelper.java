@@ -1,10 +1,12 @@
 package com.example.lee.database;
 
-import static android.provider.BaseColumns._ID; //資料庫都會有唯一的id
-import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 
+import static android.provider.BaseColumns._ID;
+
+//到此一遊
 public class DBHelper extends SQLiteOpenHelper {
     //宣告公用常數(final)
     public static final String Ruletype = "Ruletype";//表格名稱
